@@ -41,9 +41,9 @@ public class Main {
         int ageChild = 3;
         if (ageChild >= 2 && ageChild <= 5) {
             System.out.println("Если возраст ребенка равен меньше 5 лет, то ему нельзя кататься на атракционе ");
-        }else if (ageChild >= 5 && ageChild <= 14) {
+        } else if (ageChild >= 5 && ageChild <= 14) {
             System.out.println("Если возраст ребенка равен больше 5, но меньше 14 лет,  то ему можно кататься на аттракционе в сопровождении взрослого.Если взрослого нет, то кататься нельзя.");
-        }else if (ageChild >= 14 && ageChild <= 17) {
+        } else if (ageChild >= 14 && ageChild <= 17) {
             System.out.println("Если ребенок старше 14 лет, то он может кататься без сопровождения взрослого. ");
         }
 
@@ -51,7 +51,7 @@ public class Main {
         int сapacityWagon = 5;
         if (сapacityWagon > 60) {
             System.out.println("Если место под номером " + сapacityWagon + ", то   место стоячее");
-        }else if (сapacityWagon <= 62 && сapacityWagon != 0) {
+        } else if (сapacityWagon <= 62 && сapacityWagon != 0) {
             System.out.println("Если место под номером " + сapacityWagon + ", то   место сидячее ");
         } else {
             System.out.println("Если мест " + сapacityWagon + ", то вагон уже полностью забит  ");
@@ -64,12 +64,12 @@ public class Main {
         if (one > two && one > three) {
             System.out.println("Число one больше");
         } else if (two > one && two > three) {
-                System.out.println("Число two больше");
-            } else {
-                System.out.println("Число three больше остальных");
-            }
-
+            System.out.println("Число two больше");
+        } else {
+            System.out.println("Число three больше остальных");
         }
 
-
     }
+
+
+}
